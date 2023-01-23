@@ -1,19 +1,6 @@
-/* 
-
-    CSS Guide
-
-    1. General Styles
-    2. Grid
-    3. Header
-    4. Main Hero Image
-    5. Features
-    6. Footer
-
-*/
-
-/* 1. ---General Styles--- */
-
-
+body {
+    background-color: #A0A0A0;
+}
 .hidden {
     display: none;
 }
@@ -35,11 +22,6 @@
     text-align: center;
 }
 
-/* 2. ---Grid--- */
-
-/* this is the exact same grid used in Adobe XD, we have recreated 
-the grid using CSS. It is a class becasue we will use multiple grids */
-
 .grid {
     display: grid;
     padding-left: 15px;
@@ -47,8 +29,6 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     grid-template-columns: repeat(12, 70px);
     grid-column-gap: 30px;
 }
-
-/* 3. ---Header--- */
 
 #main-header {
     margin-top: 40px;
@@ -66,7 +46,6 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     grid-column: 7/-1;
     margin-top: 15px;
 }
-/* 4. ---Main Hero Image--- */
 
 #hero {
     margin-top: 70px;
@@ -87,8 +66,6 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     text-align: center;
 }
 
-/* 5. ---Features--- */
-
 #features-con {
     margin-top: 100px;
 }
@@ -103,9 +80,6 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     height: 300px;
     grid-column: span 4;
 }
-
-
-/* 6. ---Footer--- */
 
 #footer-con-full {
     height: 100px;
